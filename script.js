@@ -1,5 +1,5 @@
 console.log("hello script");
-const socket =io('http://localhost:8000',{transports:['websocket']})
+const socket =io('https://chatverse.herokuapp.com',{transports:['websocket']})
 const form =document.getElementById("sent-container")
 const messageInput = document.getElementById("message-inp")
 const messageContainer =document.querySelector('.container')
