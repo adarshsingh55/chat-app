@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatty</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <nav>
+        <img src="./logo.jpeg" alt="logo" class="logo">
+    </nav>
+    <div class="container" id="container">
+       
+
+    </div>
+    <div class="send">
+        <form action="#" id="sent-container"  >
+            <input type="text" name="massage" class="messageInp" id="message-inp">
+            <button type="submit" id="send-btn">
+                Send
+            </button>
+        </form>
+    </div>
+</body>
+</html>
